@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+}
+
+header {
+    background-image: url('https://i.pinimg.com/originals/3b/d5/6f/3bd56f3fe9eb6af2a32dd1231d3a0f59.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.pokemon-card {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+}
+
+.pokemon-card .card-body {
+    text-align: center;
+}
+
+.pokemon-type {
+    display: inline-block;
+    margin: 0.2rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
+.pokemon-type.water { background-color: #6390F0; }
+.pokemon-type.fire { background-color: #EE8130; }
+.pokemon-type.grass { background-color: #7AC74C; }
+.pokemon-type.electric { background-color: #F7D02C; }
+.pokemon-type.poison { background-color: #A33EA1; }
+
+.pokemon-details {
+    background-color: grey;
+}
